@@ -64,11 +64,11 @@
         background-color: #7C58A5;
     }
     .word{
-        font-size: 10px;
+        font-size: 5px;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: space-around;
-        gap: 2px;
+        gap: 1px;
     }
     .main{
         border-radius: 20px;
@@ -77,25 +77,34 @@
         height: 5px;
         text-align: center;
         margin-top: -2%;
+        font-size: 4px;
+        padding: 10px;
     }
+  
     .major{
         background-color: rebeccapurple;
         border-radius: 20px;
-        width: 2%;
-        height: 5px;
+        width: 1%;
+        height: 2px;
         text-align: center;
+        font-size: 6px;
         margin-top: 2%;
+        gap: 1%;
     }
     #header{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        gap: 2px;
     }
     #page{
         background-color: #FACFCC;
         border-radius: 40px;
         margin-right: 1%;
         margin-left: 1%;
+        flex-direction: column;
+        font-size: 10px;
+
     }
     .message{
         font-size: 10px;
@@ -115,6 +124,7 @@
         flex-wrap: wrap;
         justify-content: space-around;
         margin-top: 1%;
+        width: 220px;
     }
     #footer{
         display: flex;
@@ -122,5 +132,10 @@
         justify-content: space-around;
         font-size: 5px;
         background-color: white;
+}
+.image{
+    margin-left: 30%;
+    margin-top: 5%;
+    width:150%;
 }
 }
